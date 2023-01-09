@@ -1,8 +1,11 @@
 #root {
+  width: 100%;
+  display: flex;
   max-width: 1280px;
-  margin: 0 auto;
+  justify-content: center;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
+  gap: 50px;
 }
 
 .logo {
@@ -38,4 +41,16 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.create-pool {
+  /* float: left; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+}
+
+.buy-token {
+  /* float: right; */
+  /* margin-right: 20px; */
+
 }
